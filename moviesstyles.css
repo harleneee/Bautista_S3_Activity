@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #cf9516;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #cf9516;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.movies {
+    padding: 50px 0;
+}
+
+.movie {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.movie img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.movie-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #cf9516;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
